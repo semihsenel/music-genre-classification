@@ -1,0 +1,184 @@
+
+RandomForestClassifier(max_depth=10, max_features=0.6) ------>
+Cross Validation Score (accuracy) : 0.6679999999999999
+Cross Validation Score (recall) : 0.671
+Cross Validation Score (precision) : 0.6797203740255497
+Cross Validation Score (f1) : 0.6622835841386541
+RandomForestClassifier(max_depth=20, max_features=0.6) ------>
+Cross Validation Score (accuracy) : 0.669
+Cross Validation Score (recall) : 0.671
+Cross Validation Score (precision) : 0.6711094234863315
+Cross Validation Score (f1) : 0.6639694282485591
+RandomForestClassifier(max_depth=10, max_features='sqrt') ------>
+Cross Validation Score (accuracy) : 0.661
+Cross Validation Score (recall) : 0.649
+Cross Validation Score (precision) : 0.6733976367104177
+Cross Validation Score (f1) : 0.6558113951855993
+RandomForestClassifier(max_depth=20, max_features='sqrt') ------>
+Cross Validation Score (accuracy) : 0.659
+Cross Validation Score (recall) : 0.6679999999999999
+Cross Validation Score (precision) : 0.674483050658081
+Cross Validation Score (f1) : 0.6587271168724118
+RandomForestClassifier(max_depth=50) ------>
+Cross Validation Score (accuracy) : 0.666
+Cross Validation Score (recall) : 0.672
+Cross Validation Score (precision) : 0.6716657259667491
+Cross Validation Score (f1) : 0.6690051194194198
+LogisticRegression(C=10, max_iter=500, n_jobs=-1) ------>
+Cross Validation Score (accuracy) : 0.7300000000000001
+Cross Validation Score (recall) : 0.7299999999999999
+Cross Validation Score (precision) : 0.7404027004314391
+Cross Validation Score (f1) : 0.7303135404986791
+LogisticRegression(C=1, max_iter=500, n_jobs=-1) ------>
+Cross Validation Score (accuracy) : 0.742
+Cross Validation Score (recall) : 0.742
+Cross Validation Score (precision) : 0.7510097082541355
+Cross Validation Score (f1) : 0.7421951293045176
+LogisticRegression(C=0.1, max_iter=500, n_jobs=-1) ------>
+Cross Validation Score (accuracy) : 0.736
+Cross Validation Score (recall) : 0.736
+Cross Validation Score (precision) : 0.7375750114455324
+Cross Validation Score (f1) : 0.7326478228804707
+LogisticRegression(C=0.01, max_iter=500, n_jobs=-1) ------>
+Cross Validation Score (accuracy) : 0.681
+Cross Validation Score (recall) : 0.681
+Cross Validation Score (precision) : 0.6820453172269568
+Cross Validation Score (f1) : 0.6771465055053554
+LogisticRegression(C=0.001, max_iter=500, n_jobs=-1) ------>
+Cross Validation Score (accuracy) : 0.5959999999999999
+Cross Validation Score (recall) : 0.5960000000000001
+Cross Validation Score (precision) : 0.6101025106861382
+Cross Validation Score (f1) : 0.5812381808825788
+AdaBoostClassifier(learning_rate=1, n_estimators=10) ------>
+Cross Validation Score (accuracy) : 0.20600000000000002
+Cross Validation Score (recall) : 0.20600000000000002
+Cross Validation Score (precision) : 0.15526628096650316
+Cross Validation Score (f1) : 0.1336623668435563
+AdaBoostClassifier(learning_rate=0.1, n_estimators=20) ------>
+Cross Validation Score (accuracy) : 0.362
+Cross Validation Score (recall) : 0.362
+Cross Validation Score (precision) : 0.42568435433377266
+Cross Validation Score (f1) : 0.3309182732533392
+AdaBoostClassifier(learning_rate=0.01, n_estimators=10) ------>
+Cross Validation Score (accuracy) : 0.293
+Cross Validation Score (recall) : 0.29300000000000004
+Cross Validation Score (precision) : 0.1850122259359946
+Cross Validation Score (f1) : 0.1996890694465222
+AdaBoostClassifier(algorithm='SAMME', learning_rate=0.1, n_estimators=20) ------>
+Cross Validation Score (accuracy) : 0.274
+Cross Validation Score (recall) : 0.274
+Cross Validation Score (precision) : 0.14691147021604312
+Cross Validation Score (f1) : 0.16958628366452358
+AdaBoostClassifier(algorithm='SAMME', learning_rate=0.01, n_estimators=5) ------>
+Cross Validation Score (accuracy) : 0.179
+Cross Validation Score (recall) : 0.179
+Cross Validation Score (precision) : 0.09678074958799225
+Cross Validation Score (f1) : 0.10185860376380122
+DecisionTreeClassifier(max_depth=10) ------>
+Cross Validation Score (accuracy) : 0.501
+Cross Validation Score (recall) : 0.504
+Cross Validation Score (precision) : 0.5190798004356503
+Cross Validation Score (f1) : 0.49958872008319927
+DecisionTreeClassifier(max_depth=30) ------>
+Cross Validation Score (accuracy) : 0.4950000000000001
+Cross Validation Score (recall) : 0.51
+Cross Validation Score (precision) : 0.5102544326003237
+Cross Validation Score (f1) : 0.49558676498587034
+DecisionTreeClassifier(criterion='entropy', max_depth=10) ------>
+Cross Validation Score (accuracy) : 0.5279999999999999
+Cross Validation Score (recall) : 0.5189999999999999
+Cross Validation Score (precision) : 0.5274443590072763
+Cross Validation Score (f1) : 0.5272339006295793
+DecisionTreeClassifier(criterion='entropy', max_depth=30) ------>
+Cross Validation Score (accuracy) : 0.5269999999999999
+Cross Validation Score (recall) : 0.524
+Cross Validation Score (precision) : 0.5319478208148106
+Cross Validation Score (f1) : 0.5360971043926189
+DecisionTreeClassifier(max_depth=50) ------>
+Cross Validation Score (accuracy) : 0.508
+Cross Validation Score (recall) : 0.507
+Cross Validation Score (precision) : 0.5185289708459382
+Cross Validation Score (f1) : 0.49596997013596483
+KNeighborsClassifier(n_neighbors=1) ------>
+Cross Validation Score (accuracy) : 0.6079999999999999
+Cross Validation Score (recall) : 0.608
+Cross Validation Score (precision) : 0.6158258798098547
+Cross Validation Score (f1) : 0.6047959780471805
+KNeighborsClassifier(n_neighbors=1, weights='distance') ------>
+Cross Validation Score (accuracy) : 0.6079999999999999
+Cross Validation Score (recall) : 0.608
+Cross Validation Score (precision) : 0.6158258798098547
+Cross Validation Score (f1) : 0.6047959780471805
+KNeighborsClassifier(n_neighbors=2, weights='distance') ------>
+Cross Validation Score (accuracy) : 0.6079999999999999
+Cross Validation Score (recall) : 0.608
+Cross Validation Score (precision) : 0.6158258798098547
+Cross Validation Score (f1) : 0.6047959780471805
+KNeighborsClassifier(n_neighbors=3) ------>
+Cross Validation Score (accuracy) : 0.6130000000000001
+Cross Validation Score (recall) : 0.6130000000000001
+Cross Validation Score (precision) : 0.6392007147938691
+Cross Validation Score (f1) : 0.6075893216959397
+KNeighborsClassifier(n_neighbors=3, weights='distance') ------>
+Cross Validation Score (accuracy) : 0.624
+Cross Validation Score (recall) : 0.624
+Cross Validation Score (precision) : 0.636888527824882
+Cross Validation Score (f1) : 0.6210295685561429
+SVC(kernel='linear') ------>
+Cross Validation Score (accuracy) : 0.704
+Cross Validation Score (recall) : 0.7040000000000001
+Cross Validation Score (precision) : 0.7092006303525822
+Cross Validation Score (f1) : 0.7015162448734463
+SVC(C=1, kernel='poly') ------>
+Cross Validation Score (accuracy) : 0.495
+Cross Validation Score (recall) : 0.495
+Cross Validation Score (precision) : 0.699784718879982
+Cross Validation Score (f1) : 0.5187866648872088
+SVC(C=1, degree=4, kernel='poly') ------>
+Cross Validation Score (accuracy) : 0.335
+Cross Validation Score (recall) : 0.335
+Cross Validation Score (precision) : 0.6128190737495246
+Cross Validation Score (f1) : 0.33556860287200047
+SVC(C=1, degree=5, kernel='poly') ------>
+Cross Validation Score (accuracy) : 0.311
+Cross Validation Score (recall) : 0.31100000000000005
+Cross Validation Score (precision) : 0.5908749419787933
+Cross Validation Score (f1) : 0.29691959744424967
+SVC(C=0.1, degree=5) ------>
+Cross Validation Score (accuracy) : 0.542
+Cross Validation Score (recall) : 0.542
+Cross Validation Score (precision) : 0.5601532041655206
+Cross Validation Score (f1) : 0.5316115448499517
+MLPClassifier(early_stopping=True, hidden_layer_sizes=(100, 100), max_iter=500) ------>
+Cross Validation Score (accuracy) : 0.698
+Cross Validation Score (recall) : 0.682
+Cross Validation Score (precision) : 0.7023043067978321
+Cross Validation Score (f1) : 0.6888532837237153
+MLPClassifier(early_stopping=True, hidden_layer_sizes=(256, 256), max_iter=500) ------>
+Cross Validation Score (accuracy) : 0.7
+Cross Validation Score (recall) : 0.7
+Cross Validation Score (precision) : 0.7268953478539627
+Cross Validation Score (f1) : 0.7021818597122748
+MLPClassifier(early_stopping=True, hidden_layer_sizes=(100, 100), max_iter=500,
+              solver='lbfgs') ------>
+Cross Validation Score (accuracy) : 0.722
+Cross Validation Score (recall) : 0.711
+Cross Validation Score (precision) : 0.7198879060794526
+Cross Validation Score (f1) : 0.6891459147621569
+MLPClassifier(early_stopping=True, hidden_layer_sizes=(256, 256), max_iter=1000,
+              solver='lbfgs') ------>
+Cross Validation Score (accuracy) : 0.7110000000000001
+Cross Validation Score (recall) : 0.7299999999999999
+Cross Validation Score (precision) : 0.7173757232798759
+Cross Validation Score (f1) : 0.7102642496555521
+MLPClassifier(early_stopping=True, hidden_layer_sizes=(100, 100),
+              learning_rate_init=0.0001, max_iter=1000, solver='lbfgs') ------>
+Cross Validation Score (accuracy) : 0.693
+Cross Validation Score (recall) : 0.7209999999999999
+Cross Validation Score (precision) : 0.7267840090900262
+Cross Validation Score (f1) : 0.718318794127806
+LinearDiscriminantAnalysis() ------>
+Cross Validation Score (accuracy) : 0.7290000000000001
+Cross Validation Score (recall) : 0.7289999999999999
+Cross Validation Score (precision) : 0.7421786000692476
+Cross Validation Score (f1) : 0.7303321465053925
